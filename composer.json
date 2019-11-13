@@ -1,0 +1,27 @@
+{
+    "name": "xiaodi/php-cs-fixer-config",
+    "type": "library",
+    "description": "php-cs-fixer",
+    "keywords": ["php"],
+    "homepage": "https://github.com/xiaodit/php-cs-fixer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaodi",
+            "email": "liangjinbiao@live.com",
+            "homepage": "http://xiaodim.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "friendsofphp/php-cs-fixer": "^2.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "xiaodi\\": "src"
+        }
+    },
+    "scripts": {
+        "cs-fix": "php-cs-fixer fix"
+    }
+}
